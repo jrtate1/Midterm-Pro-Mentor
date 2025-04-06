@@ -8,5 +8,6 @@ function loadComponent(id, path) {
   
   window.addEventListener("DOMContentLoaded", () => {
     loadComponent("navbar", "components/navbar.html");
+    loadComponent("footer", "components/footer.html");
   });
   
