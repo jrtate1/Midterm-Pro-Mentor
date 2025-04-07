@@ -21,13 +21,12 @@
   
   .cta-button {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #254893;
     color: #fff;
-    padding: 0.75rem 1.5rem;
+    padding: 2%;
     border-radius: 8px;
-    font-weight: bold;
     transition: background-color 0.2s ease;
-    width: 70%;
+    text-decoration: none;
   }
   
   .cta-button:hover {
