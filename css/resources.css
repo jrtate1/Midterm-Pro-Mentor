@@ -1,25 +1,73 @@
-body{
-    font-family: 'Times New Roman', Times, serif
+/* General page styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
-main {
-    padding:20px;
-    text-align:center;
-}
-
-.mentor-list {
-    display:flex;
-    flex-direction:column;
-    gap:10px
-    margin-top: 20px;
-}
-
-.mentor-card {
-    background-color: white;
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
     padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0px 5px rgba(0,0,0,0.1);
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Page content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form section */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Form button style */
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Match result paragraph */
+#match-result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
 }
