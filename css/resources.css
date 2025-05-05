@@ -6,8 +6,8 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Navigation bar */
-nav {
+/* /* Navigation bar */
+/* nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,16 +17,16 @@ nav {
 }
 
 /* Navigation links */
-nav ul {
+/* nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
 }
-
-nav ul li a {
+ */
+/* nav ul li a {
     color: white;
     text-decoration: none;
-}
+} */ 
 
 /* Page content */
 main {
