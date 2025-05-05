@@ -6,28 +6,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* /* Navigation bar */
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 15px;
-}
-
-/* Navigation links */
-/* nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
- */
-/* nav ul li a {
-    color: white;
-    text-decoration: none;
-} */ 
-
 /* Page content */
 main {
     padding: 20px;
